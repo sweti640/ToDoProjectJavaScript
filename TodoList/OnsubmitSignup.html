@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+	
+
+	<form name="myForm" action="signup.html" onsubmit="return AddUser()">
+
+	
+	<div class="container">
+  <div class="jumbotron">
+  	
+  <div class="container">
+  	<a href="signup.html" class="btn btn-info" role="button">Login</a>
+  
+  </div><br>
+    <center><h1>Create Your Account</h1></center>     
+    <div class="form-group">
+			<strong><label for="name">First Name: </label></strong>
+			<input type="text" class="form-control" name="email" id="fname" placeholder="Enter your first Name" autofocus required>
+
+
+	</div><br>
+	<div class="form-group">
+			<strong><label for="name">Last Name: </label></strong>
+			<input type="text" class="form-control" name="email" id="lname" placeholder="Enter your last name"  required="">
+	</div><br>
+	<div class="radio">
+			<strong><label class="radio-inline">Gender : </label></strong>
+			<label class="radio-inlinee"><input type="radio"  name="gen" id="gen" value="male">Male </label>
+			<label class="radio-inlinee"><input type="radio" name="gen" id="gen" value="female">Female  </label>
+	</div><br>
+	<div class="form-group">
+			<strong><label for="d">Birthdate: </label></strong>
+			<input type="date" class="form-control" name="date" id="d"  required=""  value="2018-07-22"
+       min="2008-01-01" max="2020-12-30">
+	</div><br>
+	<div class="form-group">
+			<strong><label for="ename">Email: </label></strong>
+			<input type="email" class="form-control" name="email" id="ename"  required="">
+	</div><br>
+	<div class="form-group">
+			<strong><label for="pass">Password: </label></strong>
+			<input type="password" class="form-control" name="pass" id="pass"  required="">
+	</div><br>
+	<div class="form-group">
+			<strong><label for="compass"> Confirm Password: </label></strong>
+			<input type="password" class="form-control" name="pass" id="compass"  required="">
+	</div><br>
+	<center>
+	
+		<div class="form-group">
+			<input type="submit" name="submit">
+			<input type="Reset" name="reset"> 
+
+			
+	</div>
+	
+	 <!-- <button type="button" class="btn btn-primary btn-md">SignUp</button>  -->
+
+  <!-- <button type="button" class="btn btn-primary btn-md" onclick="AddUser()" >SignUp</button> -->
+  
+  
+  </center>
+  </div>
+  </form>
+  <script type="text/javascript"  src="login.js"></script>
+  </body>
+</html>

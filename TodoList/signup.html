@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style>
+body {
+  /*border: 1px solid black;*/
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+</style>
+
+
+</head>
+<body>
+	
+	
+	<div class="container">
+  <div class="jumbotron">
+  	<a href="login.html" class="btn btn-info" role="button">Signup</a>
+  	<center><h1>login here</h1></center>  
+  	<div class="form-group">
+			<strong><label for="ename">Email: </label></strong>
+			<input type="email" class="form-control" name="email" id="ename"  required="">
+	</div><br>
+	<div class="form-group">
+			<strong><label for="pass">Password: </label></strong>
+			<input type="password" class="form-control" name="pass" id="pass"  required="">
+	</div><br>
+	
+	<center>
+	<a href="" class="btn btn-info" id="too" role="button" onclick="LoginCheck()">Login</a>
+	<!-- <a href="signup.html" class="btn btn-info" role="button" onclick="AddUser()">Signup</a> -->
+
+  
+  
+  
+  </center> 
+  <div class="user" id="userlist"></div>  
+  </div>
+</div>
+ <script type="text/javascript"  src="SuccessLOgin.js"></script>
+
+
+  	
+
+
+</body>
+</html>
